@@ -3,30 +3,45 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dropdown.css">
     <title>HUB</title>
   </head>
   <body>
-     <img class="a" src="image\logo.jpg">
+     <section class="a" id="banner"><form>
+                 <div class="search-box">
+                    <input type="text" class="form-control" placeholder="Search....">
+                <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+        </form>
+      </section>
             <nav class="top-nav-bar fixed-top bg-custom">
                  <a href="#"><img src="image\hub.png" class="logo"></a>
                  <div class="menu-bar">
                 <ul>
-                    <li><a href="#">Bolgs</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pootfolio</a></li>
+                 <div class="dropdown">
+                   <li class="dropbtn"> <a href="#">Our services</a> <i class="fa fa-caret-down"></i>
+                   </li>
+                   <div class="dropdown-content">
+                      <a href="#">It Solution</a>
+                      <a href="#">Training </a>
+                   </div>
+                 </div>
                 </ul>
         </div>
         </nav>
         <div>
         <button class="btn1">Training</button>
         <button class="btn2">Solution</button>
-        <button class="btn3">Submit Form</button> 
         </div> 
-        <div><h1>Hub It a Glance</h1>
-            <p>fklsdfsdlfsfdgdsfkvdkvdfkffdksfdvkdfvdfdfskfdkdfvkdfvsdfbdfbdbfgbgfbfgfggffddgfgdfgfgdfdfbgfbfgbfdgbfggfbgfbgfbgf</p>
+        <div class="inbanner"><h1>Hub It a Glance</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat pretium venenatis. Morbi rhoncus nisi lorem, ac volutpat urna aliquam ut. Praesent fringilla tortor hendrerit, imperdiet tellus non, vehicula ante. Vestibulum tellus lectus, consectetur id eleifend ac, tincidunt</p>
         </div>
-    <hr id="change">
     <div class="container">
        hjghghgh
 <br>kvsdvsdkvdsk<br>kdfsdfklsdkds<br>dksfsdkfksdvsd<br>ksfsdfksdfkds<br>
@@ -59,6 +74,36 @@
 <br>kvsdvsdkvdsk<br>kdfsdfklsdkds<br>dksfsdkfksdvsd<br>ksfsdfksdfkds<br>
 <br>kvsdvsdkvdsk<br>kdfsdfklsdkds<br>dksfsdkfksdvsd<br>ksfsdfksdfkds<br>
 
+</div>
+   <!-- /*............................footer........................ */ -->
+
+   <div class="footer">
+<div class="container">
+
+  <button class="btn">feedback</button>
+  <pre>
+                          
+      <p align="left" id="para">By signing up you will get 15 days free trail. You won't be charged until the
+ trail period ends,don't let this pass in front of your eyes.</p>
+  </pre>
+  
+</div>
+      <p align="center">
+        Contact US<br>
+        98376326762<br>
+          www.hubit.com.np
+      </p>
+    
+    <div id="media">
+        <i class="fa fa-google" style="font-size:48px;color:white; padding-right:5px;" ></i>
+<i class="fa fa-twitter-square" style="font-size:50px; padding-right:5px;"></i>
+<i class="fa fa-facebook-square" style="font-size:50px;color:white; padding-right:5px;"></i>
+</div>
+
+<div class="copyright" align="left">
+              &copy; B technology </div>
+            </div>
+
 
    
     <!-- Optional JavaScript -->
@@ -66,22 +111,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-     <script type="text/javascript">
-        $(document).ready(function(){
-        var scroll_start = 0;
-        var startchange = $('#change');
-        var offset = startchange.offset();
-        if(startchange.length) {
-        $(document).scroll(function(){
-            scroll_start =$(this).scrollTop();
-            if (scroll_start > (offset.top+80) {
-                  $('.bg-custom').css('background-color','black');
-        }
-        else{
-            $('.bg-custom').css('background-color','transparent');
-        }
-    }
-    }       
-});
+     
+</script>
   </body>
 </html>
